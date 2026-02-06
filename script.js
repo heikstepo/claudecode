@@ -1,6 +1,6 @@
 // Countdown Timer
-// Set target date: Sunday, February 1st, 2026, 3:00 PM EST (UTC-5)
-const targetDate = new Date('2026-02-01T20:00:00Z'); // 3PM EST = 8PM UTC
+// Set target date: Sunday, March 1st, 2026, 3:00 PM EST (UTC-5)
+const targetDate = new Date('2026-03-01T20:00:00Z'); // 3PM EST = 8PM UTC
 
 function updateCountdown() {
   const now = new Date();
