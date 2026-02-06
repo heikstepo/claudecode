@@ -1,0 +1,420 @@
+/* Reset & Base */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Top Banner */
+.top-banner {
+  background: #fff;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #e8632b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.banner-icon {
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  background: #fff;
+  text-align: center;
+  padding: 40px 20px 60px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.25;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: #1a1a2e;
+}
+
+.highlight {
+  color: #e8632b;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.event-date {
+  display: inline-block;
+  background: #fff;
+  border: 2px solid #222;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Countdown Timer */
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.countdown-item {
+  background: #fdf4ee;
+  border: 1px solid #f5d5be;
+  border-radius: 10px;
+  padding: 14px 20px;
+  min-width: 70px;
+  text-align: center;
+}
+
+.countdown-number {
+  display: block;
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a2e;
+}
+
+.countdown-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #999;
+  margin-top: 4px;
+}
+
+/* CTA Button */
+.cta-button {
+  background: #e8632b;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.cta-button:hover {
+  background: #d4561f;
+  transform: translateY(-1px);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+.spots-limited {
+  font-size: 13px;
+  color: #999;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* What You'll Learn Section */
+.learn-section {
+  background: #fafafa;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.learn-section h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 40px;
+}
+
+.learn-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.learn-card {
+  background: #fff;
+  border: 1px solid #f5d5be;
+  border-left: 4px solid #e8632b;
+  border-radius: 10px;
+  padding: 24px 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+  transition: box-shadow 0.2s ease;
+}
+
+.learn-card:hover {
+  box-shadow: 0 4px 16px rgba(232, 99, 43, 0.1);
+}
+
+.card-arrow {
+  color: #e8632b;
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+  line-height: 1.45;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.5;
+}
+
+/* Meet Your Host Section */
+.host-section {
+  padding: 70px 20px;
+  background: #fff;
+}
+
+.host-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.host-bio h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.host-bio p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 14px;
+  line-height: 1.65;
+}
+
+.host-image {
+  display: flex;
+  justify-content: center;
+}
+
+.image-placeholder {
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 3 / 4;
+  background: #f0e6df;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c4a88c;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px dashed #d4b89c;
+}
+
+.host-cta {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 24px;
+}
+
+.host-cta .cta-button {
+  flex-shrink: 0;
+}
+
+.host-cta .spots-limited {
+  width: 100%;
+  flex-basis: auto;
+  display: none;
+}
+
+.host-cta-text {
+  font-size: 14px;
+  color: #666;
+  max-width: 400px;
+  line-height: 1.55;
+}
+
+/* Footer */
+.footer {
+  background: #fafafa;
+  border-top: 1px solid #eee;
+  padding: 40px 20px 30px;
+}
+
+.disclaimer {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.disclaimer h4 {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+.disclaimer p {
+  font-size: 11px;
+  color: #aaa;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.disclaimer-facebook {
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  font-size: 12px;
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #e8632b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .learn-section h2 {
+    font-size: 24px;
+  }
+
+  .host-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .host-bio h2 {
+    font-size: 24px;
+  }
+
+  .countdown-item {
+    min-width: 60px;
+    padding: 12px 14px;
+  }
+
+  .countdown-number {
+    font-size: 24px;
+  }
+
+  .image-placeholder {
+    max-width: 280px;
+  }
+
+  .host-cta {
+    flex-direction: column;
+  }
+
+  .host-cta-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .event-date {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .countdown-item {
+    min-width: 55px;
+    padding: 10px 10px;
+  }
+
+  .countdown-number {
+    font-size: 20px;
+  }
+
+  .learn-card {
+    padding: 18px 20px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+}
