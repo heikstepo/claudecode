@@ -240,19 +240,11 @@ body {
   justify-content: center;
 }
 
-.image-placeholder {
+.host-image img {
   width: 100%;
   max-width: 350px;
-  aspect-ratio: 3 / 4;
-  background: #f0e6df;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #c4a88c;
-  font-size: 14px;
-  font-weight: 600;
-  border: 2px dashed #d4b89c;
+  object-fit: cover;
 }
 
 .host-cta {
@@ -369,7 +361,7 @@ body {
     font-size: 24px;
   }
 
-  .image-placeholder {
+  .host-image img {
     max-width: 280px;
   }
 
