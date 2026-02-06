@@ -28,7 +28,7 @@ body {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #e8632b;
+  color: #5BA4D9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ body {
 }
 
 .highlight {
-  color: #e8632b;
+  color: #5BA4D9;
 }
 
 .hero-subtitle {
@@ -89,8 +89,8 @@ body {
 }
 
 .countdown-item {
-  background: #fdf4ee;
-  border: 1px solid #f5d5be;
+  background: #eef5fd;
+  border: 1px solid #bed5f5;
   border-radius: 10px;
   padding: 14px 20px;
   min-width: 70px;
@@ -115,7 +115,7 @@ body {
 
 /* CTA Button */
 .cta-button {
-  background: #e8632b;
+  background: #5BA4D9;
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -127,7 +127,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #d4561f;
+  background: #4A8FC4;
   transform: translateY(-1px);
 }
 
@@ -166,8 +166,8 @@ body {
 
 .learn-card {
   background: #fff;
-  border: 1px solid #f5d5be;
-  border-left: 4px solid #e8632b;
+  border: 1px solid #bed5f5;
+  border-left: 4px solid #5BA4D9;
   border-radius: 10px;
   padding: 24px 28px;
   display: flex;
@@ -178,11 +178,11 @@ body {
 }
 
 .learn-card:hover {
-  box-shadow: 0 4px 16px rgba(232, 99, 43, 0.1);
+  box-shadow: 0 4px 16px rgba(91, 164, 217, 0.1);
 }
 
 .card-arrow {
-  color: #e8632b;
+  color: #5BA4D9;
   font-size: 14px;
   flex-shrink: 0;
   margin-top: 3px;
@@ -330,7 +330,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #e8632b;
+  color: #5BA4D9;
 }
 
 /* Responsive */
